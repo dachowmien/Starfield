@@ -52,7 +52,7 @@ void setup(){
 
 void draw(){
   fill(0, 0, 0, 60);
-  rect(0, 0, width, height);
+  rect(0, 0, 500, 500);
   for(int i = 0; i < blob.length; i++){
     blob[i].move();
     blob[i].show();
