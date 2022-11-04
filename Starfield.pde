@@ -56,5 +56,5 @@ void draw(){
   for(int i = 0; i < blob.length; i++){
     blob[i].move();
     blob[i].show();
-    }
   }
+}
