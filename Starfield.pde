@@ -1,7 +1,7 @@
 class Particle{
   double myX, myY, myAngle, mySpeed;
   int myColor, myHeight, myWidth;
-  {
+  Particle(){
     myX = 250;
     myY = 250;
     myAngle = Math.random()*2*Math.PI;
