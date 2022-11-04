@@ -24,7 +24,7 @@ class Particle{
     myX = myY = 250;
     }
   }
-}//end of Particle class
+}
 
 class notParticle extends Particle{
   notParticle(){
@@ -36,7 +36,7 @@ class notParticle extends Particle{
     myHeight = 20;
     myWidth = 15;
   }
-}//end of notParticle class
+}
 Particle[] blob = new Particle[100];
 
 void setup(){
